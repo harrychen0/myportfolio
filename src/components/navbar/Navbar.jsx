@@ -2,6 +2,7 @@ import "./navbar.scss"
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import AssignmentIcon from '@mui/icons-material/Assignment';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function navbar({ menuOpen, setMenuOpen }) {
   return (
@@ -18,6 +19,10 @@ export default function navbar({ menuOpen, setMenuOpen }) {
           <a href="mailto:harry.chen@uwaterloo.ca" className="link">
             <EmailIcon className="icon" />
             <span>harry.chen@uwaterloo.ca</span>
+          </a>
+          <a href="https://github.com/harrychen0" className="link" target="_blank" rel="noreferrer">
+            <GitHubIcon className="icon" />
+            <span>/harrychen0</span>
           </a>
           <a href="assets/resume.pdf" className="link">
             <AssignmentIcon className="icon" />

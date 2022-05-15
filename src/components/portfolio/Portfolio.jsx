@@ -2,60 +2,61 @@ import "./portfolio.scss"
 import PortfolioList from "../portfoliolist/PortfolioList";
 import { useEffect, useState } from "react";
 import {
-  featuredPortfolio,
-  yelpcampPortfolio,
+  // featuredPortfolio,
+  trailgrailPortfolio,
   sitestickyPortfolio,
-  engineeringPortfolio,
-  otherPortfolio
+  jobsPortfolio,
+  // otherPortfolio
 } from "../../data";
 
 export default function Portfolio() {
 
-  const [selected, setSelected] = useState("featured");
+  const [selected, setSelected] = useState("trailgrail");
   const [data, setData] = useState([]);
 
   const list = [
+    // {
+    //   id: "featured",
+    //   title: "Featured",
+    // },
     {
-      id: "featured",
-      title: "Featured",
-    },
-    {
-      id: "yelpcamp",
-      title: "YelpCamp",
+      id: "trailgrail",
+      title: "Trailgrail",
     },
     {
       id: "sitesticky",
       title: "SiteSticky",
     },
     {
-      id: "engineering",
-      title: "Engineering",
+      id: "jobs",
+      title: "Internships",
     },
-    {
-      id: "other",
-      title: "Other",
-    },
+    // {
+    //   id: "other",
+    //   title: "Other",
+    // },
   ];
 
   useEffect(() => {
     switch (selected) {
-      case "featured":
-        setData(featuredPortfolio);
-        break;
-      case "yelpcamp":
-        setData(yelpcampPortfolio);
+      // case "featured":
+      //   setData(featuredPortfolio);
+      //   break;
+      case "trailgrail":
+        setData(trailgrailPortfolio);
         break;
       case "sitesticky":
         setData(sitestickyPortfolio);
         break;
-      case "engineering":
-        setData(engineeringPortfolio);
+      case "jobs":
+        setData(jobsPortfolio);
         break;
-      case "other":
-        setData(otherPortfolio);
-        break;
+      // case "other":
+      //   setData(otherPortfolio);
+      //   break;
       default:
-        setData(featuredPortfolio);
+        setData(trailgrailPortfolio);
+        // setData(featuredPortfolio);
     }
 
   }, [selected])
