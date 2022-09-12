@@ -124,19 +124,19 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "Regional Municipality of Durham Public Works - Site Design Coordination",
+      title: "Region of York Corporate Services - Development Engineering",
       img:
-        "assets/jobs/3.svg",
+        "assets/jobs/3.jpg",
     },
     {
       id: 4,
-      title: "Region of York Corporate Services - Development Engineering",
+      title: "SCS Consulting Group - Site Plan Design",
       img:
-        "assets/jobs/4.jpg",
+        "assets/jobs/4.png",
     },
     {
       id: 5,
-      title: "SCS Consulting Group - Site Plan Design",
+      title: "NCR Inc. - Frontend Developer",
       img:
         "assets/jobs/5.png",
     },

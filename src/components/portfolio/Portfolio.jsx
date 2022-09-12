@@ -21,7 +21,7 @@ export default function Portfolio() {
     // },
     {
       id: "trailgrail",
-      title: "Trailgrail",
+      title: "TrailGrail",
     },
     {
       id: "sitesticky",

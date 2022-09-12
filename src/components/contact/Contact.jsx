@@ -14,7 +14,7 @@ export default function Contact() {
         <h2>Read my resume:</h2>
         <a href="assets/resume.pdf">
           <AssignmentIcon className="icon" />
-          <span>Updated for opportunities in Fall 2022!</span>
+          <span>Updated for Full-Time Opportunities starting 2023 Fall!</span>
         </a>
         <br />
         <h2>Get in touch with me:</h2>
