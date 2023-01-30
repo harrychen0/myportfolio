@@ -4,7 +4,7 @@ export default function Biography() {
   const data = [
     {
       id: 1,
-      title: "My background",
+      title: "My Background",
       img:
         "assets/bio/1.jpg",
       desc:
