@@ -29,7 +29,7 @@ export default function Portfolio() {
     },
     {
       id: "jobs",
-      title: "Internships",
+      title: "Employment",
     },
     // {
     //   id: "other",

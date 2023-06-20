@@ -33,7 +33,7 @@ export default function Intro() {
             <div className="desccontainer">
               <span><Typewriter
                 options={{
-                  strings: ['Developer-In-Progress', 'Civil Engineering Student', 'F1 Fan', 'Gym Lover', 'Volleyball Addict'],
+                  strings: ['Junior Developer', 'Civil Engineering Major', 'F1 Fan', 'Gym Lover', 'Volleyball Addict'],
                   autoStart: true,
                   loop: true,
                 }}
