@@ -29,16 +29,17 @@ export default function Intro() {
             Nice to meet you! I'm</h2>
           <h1>Harry Chen</h1>
           <h3>
-            I'm a
+            Seeking internship opportunities starting Summer 2024
+            {/* I'm a
             <div className="desccontainer">
               <span><Typewriter
                 options={{
-                  strings: ['Junior Developer', 'Civil Engineering Major', 'F1 Fan', 'Gym Lover', 'Volleyball Addict'],
+                  strings: ['Beginnner Developer', 'Civil Engineering Major', 'F1 Fan', 'Gym Lover', 'Volleyball Addict'],
                   autoStart: true,
                   loop: true,
                 }}
               /></span>
-            </div>
+            </div> */}
           </h3>
         </div>
         <a href="#portfolio">

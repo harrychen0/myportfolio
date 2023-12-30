@@ -14,21 +14,21 @@ export default function Contact() {
         <h2>Read my resume:</h2>
         <a href="assets/resume.pdf">
           <AssignmentIcon className="icon" />
-          <span>Updated for Full-Time Opportunities starting 2023 Fall!</span>
+          <span>Seeking internship opportunities starting Summer 2024</span>
         </a>
         <br />
         <h2>Get in touch with me:</h2>
         <a href="https://www.linkedin.com/in/harrychen0/" target="_blank" rel="noreferrer">
           <LinkedInIcon className="icon" />
-          <span>Connect with me or send me a message!</span>
+          <span>Connect with me or send me a message</span>
         </a>
         <a href="mailto:harry.chen@uwaterloo.ca">
           <EmailIcon className="icon" />
-          <span>Send me an email about anything!</span>
+          <span>Send me an email about anything</span>
         </a>
         <a href="https://github.com/harrychen0" className="link" target="_blank" rel="noreferrer">
           <GitHubIcon className="icon" />
-          <span>Check out all my projects!</span>
+          <span>Check out all my projects</span>
         </a>
       </div>
     </div>
