@@ -16,9 +16,9 @@ export default function navbar({ menuOpen, setMenuOpen }) {
             <LinkedInIcon className="icon" />
             <span>/harrychen0</span>
           </a>
-          <a href="mailto:harry.chen@uwaterloo.ca" className="link">
+          <a href="mailto:harrychen0829@gmail.com" className="link">
             <EmailIcon className="icon" />
-            <span>harry.chen@uwaterloo.ca</span>
+            <span>harrychen0829@gmail.com</span>
           </a>
           <a href="https://github.com/harrychen0" className="link" target="_blank" rel="noreferrer">
             <GitHubIcon className="icon" />

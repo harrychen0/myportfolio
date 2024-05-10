@@ -14,7 +14,7 @@ export default function Contact() {
         <h2>Read my resume:</h2>
         <a href="assets/resume.pdf">
           <AssignmentIcon className="icon" />
-          <span>Seeking internship opportunities starting Summer 2024</span>
+          <span>Seeking internship opportunities in Canada and US</span>
         </a>
         <br />
         <h2>Get in touch with me:</h2>
@@ -22,7 +22,7 @@ export default function Contact() {
           <LinkedInIcon className="icon" />
           <span>Connect with me or send me a message</span>
         </a>
-        <a href="mailto:harry.chen@uwaterloo.ca">
+        <a href="mailto:harrychen0829@gmail.com">
           <EmailIcon className="icon" />
           <span>Send me an email about anything</span>
         </a>

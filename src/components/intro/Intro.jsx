@@ -29,7 +29,7 @@ export default function Intro() {
             Nice to meet you! I'm</h2>
           <h1>Harry Chen</h1>
           <h3>
-            Seeking internship opportunities starting Summer 2024
+            Seeking internship opportunities in Canada and US
             {/* I'm a
             <div className="desccontainer">
               <span><Typewriter
